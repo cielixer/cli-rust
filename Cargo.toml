@@ -1,15 +1,17 @@
 [workspace]
 
 members = [
-    "crates/echor"
+    "crates/echor",
+    "crates/catr"
 ]
 resolver = "2"
 
 [workspace.dependencies]
-clap = "4.5.30"
+clap = "4.5.34"
 
 # dev dependencies
-anyhow = "1.0.79"
+anyhow = "1.0.97"
 assert_cmd = "2.0.13"
 predicates = "3.0.4"
 pretty_assertions = "1.4.0"
+rand = "0.8.5"
