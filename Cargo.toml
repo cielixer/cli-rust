@@ -2,7 +2,8 @@
 
 members = [
     "crates/echor",
-    "crates/catr"
+    "crates/catr",
+    "crates/headr",
 ]
 resolver = "2"
 
